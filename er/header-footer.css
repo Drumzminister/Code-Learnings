@@ -1,0 +1,73 @@
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+#header-color{
+    color:#ffffff;
+}
+#header-color > li > a{
+    color:#ffffff;
+}
+#header-color > li > a:hover{
+    color:#ffffff;
+    background-color:#ffffff;
+    color: #0F3B75;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.nav{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Footer CSS begins here*/
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #0F3B75;
+    color: #ffffff;
+    text-align: center;
+}
+.footer nav{
+    margin-top: 50px;
+}
+.footer .navbar-header{
+    margin-left: -40px;
+    padding-left: 0px;
+}
+#footer-nav #invite-friends-button a{
+    color:#0F3B75;
+}
+
+#footer-nav{
+    margin-top: 15px;
+}
+#footer-nav a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar-header a {
+    text-decoration: none;
+}
+.socials {
+    float: right;
+    clear: both;
+}
+.socials  img {
+    margin: 5px;
+}
+.foot-note,.foot-note a{
+    margin-top:150px;
+    color: inherit;
+}
+.foot-note a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ffffff;
+}
