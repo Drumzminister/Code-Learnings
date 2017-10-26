@@ -1,7 +1,3 @@
-
-
-
-
 <!-- Navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #0F3B75;">
     <div class="container-fluid">
