@@ -1,6 +1,42 @@
 body{
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 h1{
-    /* font-size: 70px; */
+    font-size: 70px;
+    color: #333;
+    text-align: center;
+    margin-top: 250px;
 }
+.button{
+    font-size: 50px;
+    position: absolute;
+    top: 6px;
+    right: 50px;
+    z-index: 999;
+}
+.button a{
+    text-decoration: none;
+}
+.btn-open::after{
+    font-family: "FontAwesome";
+    content: "\f0c9";
+    color: #333;
+    transition: .2s color;    
+    -o-transition: .2s color;    
+    -moz-transition: .2s color;    
+    -webkit-transition: .2s color;    
+}
+.btn-open:hover::after{
+    color: #1c9769;
+}
+
+
+
+
+
+
+
+
+
