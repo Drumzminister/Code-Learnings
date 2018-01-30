@@ -1,0 +1,58 @@
+
+
+
+
+
+
+/* Don't touch from here */
+#accordion{
+    width: 500px;
+    border: 1px solid black;
+}
+#accordion h2{
+    padding:5px;
+    margin: 0;
+    background: #ddd;
+    border-top: 3px solid rgb(224, 139, 139);
+    
+}
+#accordion p{
+    padding: 0 5px;
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid #129cd3;
+    background: transparent;
+    color: #129cf3;
+    margin: 5px;
+    border-radius: 6px;
+    outline: none;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+ button:hover{
+    background: #129cf3;
+    color:#FFF;    
+}
+button:active{
+    background: #0f76bb ;
+    color: white ;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    }
+@keyframes caret {
+        50% { border-color: transparent; }
+        }
+h1 {
+    font-family: monospace;
+    width: 15ch; /* Width of text */
+    overflow: hidden;
+    white-space: nowrap;
+    border-right:.05em solid;
+    animation: typing 6s steps(15),
+    caret 1s steps(1) infinite;
+    }
